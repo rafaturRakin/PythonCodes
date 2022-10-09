@@ -12,6 +12,7 @@
 
 # Create a string made of the first, middle and last character
 str1 = input("Enter a string: ")
+
 result = str1[0] + str1[len(str1) // 2] + str1[-1]
 
 print(result)
